@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#A script that can't be killed easily!!
+Quote1="To infinity and beyond"
+Quote2="I am invincible!!!"
+trap 'echo $Quote2' SIGTERM
+while true
+do
+	echo "$Quote1"
+	sleep 2
+done	
