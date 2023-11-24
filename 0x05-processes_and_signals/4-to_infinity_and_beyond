@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Infintely Print "To infinity and beyond"
 quote="To infinity and beyond"
-while true
+while :
 do 
 	echo $quote
 	sleep 2
